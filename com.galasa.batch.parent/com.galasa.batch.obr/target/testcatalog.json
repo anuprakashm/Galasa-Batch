@@ -1,0 +1,33 @@
+{
+  "classes": {
+    "com.galasa.batch.posting/com.galasa.batch.posting.testGENJCL": {
+      "name": "com.galasa.batch.posting.testGENJCL",
+      "bundle": "com.galasa.batch.posting",
+      "shortName": "testGENJCL",
+      "package": "com.galasa.batch.posting"
+    }
+  },
+  "packages": {
+    "com.galasa.batch.posting": [
+      "com.galasa.batch.posting/com.galasa.batch.posting.testGENJCL"
+    ]
+  },
+  "bundles": {
+    "com.galasa.batch.manager": {
+      "packages": {}
+    },
+    "com.galasa.batch.posting": {
+      "packages": {
+        "com.galasa.batch.posting": [
+          "com.galasa.batch.posting/com.galasa.batch.posting.testGENJCL"
+        ]
+      }
+    }
+  },
+  "sharedEnvironments": {},
+  "gherkin": {},
+  "name": "com.galasa.batch.obr",
+  "build": "com.galasa.batch:com.galasa.batch.obr:0.1.0-SNAPSHOT - 2021-05-11T06:45:24.326Z",
+  "version": "0.1.0-SNAPSHOT",
+  "built": "2021-05-11T06:45:24.326Z"
+}

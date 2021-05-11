@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1620715729757
+Build-Jdk: 1.8.0_271
+Built-By: 000UAV744
+Bundle-ManifestVersion: 2
+Bundle-Name: com.galasa.batch.posting
+Bundle-SymbolicName: com.galasa.batch.posting
+Bundle-Version: 0.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.galasa.batch.posting;version="0.1.0";uses:="dev.gala
+ sa,dev.galasa.artifact,dev.galasa.core.manager,dev.galasa.zos,dev.galas
+ a.zosbatch,dev.galasa.zostsocommand,org.apache.commons.logging"
+Import-Package: dev.galasa;version="[0.14,1)",dev.galasa.artifact;versio
+ n="[0.14,1)",dev.galasa.core.manager;version="[0.14,1)",dev.galasa.zos;
+ version="[0.14,1)",dev.galasa.zosbatch;version="[0.14,1)",dev.galasa.zo
+ stsocommand;version="[0.14,1)",org.apache.commons.logging;version="[1.2
+ ,2)",org.assertj.core.api;version="[3.11,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.1.0.201810181252

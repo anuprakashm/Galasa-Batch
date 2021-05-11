@@ -1,0 +1,25 @@
+{
+  "classes": {
+    "com.galasa.batch.posting/com.galasa.batch.posting.testGENJCL": {
+      "name": "com.galasa.batch.posting.testGENJCL",
+      "bundle": "com.galasa.batch.posting",
+      "shortName": "testGENJCL",
+      "package": "com.galasa.batch.posting"
+    }
+  },
+  "packages": {
+    "com.galasa.batch.posting": [
+      "com.galasa.batch.posting/com.galasa.batch.posting.testGENJCL"
+    ]
+  },
+  "bundles": {
+    "com.galasa.batch.posting": {
+      "packages": {
+        "com.galasa.batch.posting": [
+          "com.galasa.batch.posting/com.galasa.batch.posting.testGENJCL"
+        ]
+      }
+    }
+  },
+  "sharedEnvironments": {}
+}

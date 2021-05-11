@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1620715520566
+Build-Jdk: 1.8.0_271
+Built-By: 000UAV744
+Bundle-ManifestVersion: 2
+Bundle-Name: com.galasa.batch.manager
+Bundle-SymbolicName: com.galasa.batch.manager
+Bundle-Version: 0.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-4.1.0.201810181252

@@ -1,0 +1,33 @@
+<repository name='com.galasa.batch:com.galasa.batch.obr:0.1.0-SNAPSHOT' lastmodified='20210511121524.306'>
+  <resource id='com.galasa.batch.manager/0.1.0.SNAPSHOT' symbolicname='com.galasa.batch.manager' presentationname='com.galasa.batch.manager' uri='mvn:com.galasa.batch/com.galasa.batch.manager/0.1.0-SNAPSHOT/jar' version='0.1.0.SNAPSHOT'>
+    <size>1910</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.galasa.batch.manager'/>
+      <p n='presentationname' v='com.galasa.batch.manager'/>
+      <p n='version' t='version' v='0.1.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+  </resource>
+  <resource id='com.galasa.batch.posting/0.1.0.SNAPSHOT' symbolicname='com.galasa.batch.posting' presentationname='com.galasa.batch.posting' uri='mvn:com.galasa.batch/com.galasa.batch.posting/0.1.0-SNAPSHOT/jar' version='0.1.0.SNAPSHOT'>
+    <size>6955</size>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.galasa.batch.posting'/>
+      <p n='presentationname' v='com.galasa.batch.posting'/>
+      <p n='version' t='version' v='0.1.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.galasa.batch.posting'/>
+      <p n='version' t='version' v='0.1.0'/>
+      <p n='uses:' v='dev.galasa,dev.galasa.artifact,dev.galasa.core.manager,dev.galasa.zos,dev.galasa.zosbatch,dev.galasa.zostsocommand,org.apache.commons.logging'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=dev.galasa)(version&gt;=0.14.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package dev.galasa;version="[0.14,1)"</require>
+    <require name='package' filter='(&amp;(package=dev.galasa.artifact)(version&gt;=0.14.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package dev.galasa.artifact;version="[0.14,1)"</require>
+    <require name='package' filter='(&amp;(package=dev.galasa.core.manager)(version&gt;=0.14.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package dev.galasa.core.manager;version="[0.14,1)"</require>
+    <require name='package' filter='(&amp;(package=dev.galasa.zos)(version&gt;=0.14.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package dev.galasa.zos;version="[0.14,1)"</require>
+    <require name='package' filter='(&amp;(package=dev.galasa.zosbatch)(version&gt;=0.14.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package dev.galasa.zosbatch;version="[0.14,1)"</require>
+    <require name='package' filter='(&amp;(package=dev.galasa.zostsocommand)(version&gt;=0.14.0)(!(version&gt;=1.0.0)))' extend='false' multiple='false' optional='false'>Import package dev.galasa.zostsocommand;version="[0.14,1)"</require>
+    <require name='package' filter='(&amp;(package=org.apache.commons.logging)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.apache.commons.logging;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.assertj.core.api)(version&gt;=3.11.0)(!(version&gt;=4.0.0)))' extend='false' multiple='false' optional='false'>Import package org.assertj.core.api;version="[3.11,4)"</require>
+  </resource>
+</repository>

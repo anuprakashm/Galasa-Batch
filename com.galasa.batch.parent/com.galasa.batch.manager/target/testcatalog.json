@@ -1,0 +1,10 @@
+{
+  "classes": {},
+  "packages": {},
+  "bundles": {
+    "com.galasa.batch.manager": {
+      "packages": {}
+    }
+  },
+  "sharedEnvironments": {}
+}
